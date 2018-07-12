@@ -127,8 +127,6 @@ void Font4x6::printChar(const char c, const int8_t x, int8_t y) {
   int8_t idx = -1;
 
   ++y;
-Serial.print(c);
-Serial.print(" ");
 
   switch (c) {
     
@@ -155,8 +153,6 @@ Serial.print(" ");
       break;
 
   }
-
-Serial.println(idx);
 
   if (idx > -1) {
     
