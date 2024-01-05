@@ -499,6 +499,6 @@ void Font4x6::setTextColor(const uint8_t color){
   _textColor = color;
 }
 
-void Font4x6::setHeight(const uint8_t color){
-  _lineHeight = color;
+void Font4x6::setHeight(const uint8_t height){
+  _lineHeight = height;
 }
